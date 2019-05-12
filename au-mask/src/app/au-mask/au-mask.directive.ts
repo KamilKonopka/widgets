@@ -22,6 +22,7 @@ export class AuMaskDirective implements OnInit {
   mask = '';
 
   input: HTMLInputElement;
+  fullFieldSelected = false;
 
   constructor(protected el: ElementRef) {
     this.input = el.nativeElement;
@@ -32,14 +33,33 @@ export class AuMaskDirective implements OnInit {
     this.input.value = this.buildPlaceholder();
   }
 
+  @HostListener('select', ['$event'])
+  onSelect($event: UIEvent) {
+    this.fullFieldSelected = this.input.selectionStart === 0
+      && this.input.selectionEnd === this.input.value.length;
+  }
+
   @HostListener('keydown', ['$event', '$event.keyCode'])
   onKeyDown($event: KeyboardEvent, keyCode) {
+
+    if ($event.metaKey || $event.ctrlKey) {
+      return;
+    }
+
     if (keyCode !== TAB) {
       $event.preventDefault();
     }
 
     const key = String.fromCharCode(keyCode),
       cursorPos = this.input.selectionStart;
+
+    if (this.fullFieldSelected) {
+      this.input.value = this.buildPlaceholder();
+      const firstPlaceholderPos = findIndex(this.input.value,
+        char => char === '_');
+
+      this.input.setSelectionRange(firstPlaceholderPos, firstPlaceholderPos);
+    }
 
     switch (keyCode) {
       case LEFT_ARROW:
