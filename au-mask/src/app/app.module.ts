@@ -8,7 +8,7 @@ import {AuMaskModule} from "./au-mask/au-mask.module";
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
     ],
     imports: [
         BrowserModule,

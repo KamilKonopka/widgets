@@ -698,83 +698,6 @@ atob@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
 
-au-input@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/au-input/-/au-input-3.0.1.tgz#f21c4f97cd8aad81f8929e4af7ceaeb34ea2a133"
-  dependencies:
-    "@angular/animations" "7.0.0"
-    "@angular/common" "7.0.0"
-    "@angular/compiler" "7.0.0"
-    "@angular/core" "7.0.0"
-    "@angular/forms" "7.0.0"
-    "@angular/http" "7.0.0"
-    "@angular/platform-browser" "7.0.0"
-    "@angular/platform-browser-dynamic" "7.0.0"
-    "@angular/router" "7.0.0"
-    core-js "^2.4.1"
-    rxjs "6.3.3"
-    rxjs-compat "^6.0.0-rc.0"
-    zone.js "0.8.26"
-
-au-mask@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/au-mask/-/au-mask-2.0.0.tgz#922976c3042adccc4ddc2b3802ed9b138fee0894"
-  dependencies:
-    "@angular/animations" "7.0.0"
-    "@angular/common" "7.0.0"
-    "@angular/compiler" "7.0.0"
-    "@angular/core" "7.0.0"
-    "@angular/forms" "7.0.0"
-    "@angular/http" "7.0.0"
-    "@angular/platform-browser" "7.0.0"
-    "@angular/platform-browser-dynamic" "7.0.0"
-    "@angular/router" "7.0.0"
-    core-js "^2.4.1"
-    lodash.findindex "^4.6.0"
-    lodash.findlastindex "^4.6.0"
-    lodash.includes "^4.3.0"
-    rxjs "6.3.3"
-    rxjs-compat "^6.0.0-rc.0"
-    zone.js "0.8.26"
-
-au-modal@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/au-modal/-/au-modal-2.0.1.tgz#831bff9ff52844fdc5b5f4b91b85c9e7183451d4"
-  dependencies:
-    "@angular/animations" "7.0.0"
-    "@angular/common" "7.0.0"
-    "@angular/compiler" "7.0.0"
-    "@angular/core" "7.0.0"
-    "@angular/forms" "7.0.0"
-    "@angular/http" "7.0.0"
-    "@angular/platform-browser" "7.0.0"
-    "@angular/platform-browser-dynamic" "7.0.0"
-    "@angular/router" "7.0.0"
-    au-input "^3.0.1"
-    au-tab-panel "^2.0.1"
-    core-js "^2.4.1"
-    rxjs "6.3.3"
-    rxjs-compat "^6.0.0-rc.0"
-    zone.js "0.8.26"
-
-au-tab-panel@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/au-tab-panel/-/au-tab-panel-2.0.1.tgz#77f99e1297f07e054f7d3adff53a87fdc1dedd1b"
-  dependencies:
-    "@angular/animations" "7.0.0"
-    "@angular/common" "7.0.0"
-    "@angular/compiler" "7.0.0"
-    "@angular/core" "7.0.0"
-    "@angular/forms" "7.0.0"
-    "@angular/http" "7.0.0"
-    "@angular/platform-browser" "7.0.0"
-    "@angular/platform-browser-dynamic" "7.0.0"
-    "@angular/router" "7.0.0"
-    core-js "^2.4.1"
-    rxjs "6.3.3"
-    rxjs-compat "^6.0.0-rc.0"
-    zone.js "0.8.26"
-
 autoprefixer@8.4.1:
   version "8.4.1"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-8.4.1.tgz#c6b30001ea4b3daa6b611e50071f62dd24beb564"
@@ -3789,18 +3712,6 @@ lodash.clonedeep@^4.3.2, lodash.clonedeep@^4.5.0:
 lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
-
-lodash.findindex@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.findindex/-/lodash.findindex-4.6.0.tgz#a3245dee61fb9b6e0624b535125624bb69c11106"
-
-lodash.findlastindex@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.findlastindex/-/lodash.findlastindex-4.6.0.tgz#b8375ac0f02e9b926375cdf8dc3ea814abf9c6ac"
-
-lodash.includes@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/lodash.includes/-/lodash.includes-4.3.0.tgz#60bb98a87cb923c68ca1e51325483314849f553f"
 
 lodash.mergewith@^4.6.0:
   version "4.6.0"

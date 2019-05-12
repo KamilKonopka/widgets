@@ -7,8 +7,8 @@ $border-color: red;
 
 
   &.input-focus {
-    -webkit-box-shadow: 0px 0px 5px  $border-color;
-    box-shadow: 0px 0px 5px  $border-color;
+    -webkit-box-shadow: 0 0 5px  $border-color;
+    box-shadow: 0 0 5px  $border-color;
   }
 
 }

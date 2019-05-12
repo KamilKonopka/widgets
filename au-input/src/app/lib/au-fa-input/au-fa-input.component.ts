@@ -1,4 +1,4 @@
-import {Component, Input, ContentChild, AfterContentInit, HostBinding, ViewEncapsulation} from '@angular/core';
+import {Component, Input, ContentChild, AfterContentInit, HostBinding } from '@angular/core';
 import {InputRefDirective} from "../common/input-ref.directive";
 
 @Component({
@@ -27,14 +27,10 @@ export class AuFaInputComponent implements AfterContentInit {
 
 
     get classes() {
-
         const cssClasses = {};
-
         if (this.icon) {
             cssClasses['fa-' + this.icon] = true;
         }
-
         return cssClasses;
     }
-
 }
